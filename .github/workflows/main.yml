@@ -1,12 +1,9 @@
-name: Generate Profile Stats
+name: Update README cards
 
 on:
   schedule:
     - cron: '0 0 * * *'   # runs once a day at midnight UTC
   workflow_dispatch:        # lets you trigger it manually from the Actions tab
-  push:
-    branches:
-      - main
 
 jobs:
   build:
@@ -14,19 +11,28 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate stats images
-        uses: jstrieb/github-stats@master
-        with:
-          username: 23f2003236
-          exclude_repos: ""
-          exclude_langs: ""
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v4
 
-      - name: Commit and push
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=synthwave&hide_border=true&include_all_commits=true
+          path: generated/overview.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=synthwave&hide_border=true
+          path: generated/languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add generated/*
-          git commit -m "Update generated files" || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated/*.svg
+          git commit -m "Update README cards" || exit 0
           git push
