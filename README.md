@@ -75,7 +75,7 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=23f2003236&theme=radical&no-frame=true&row=1&column=6" />
+  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=23f2003236&theme=radical&no-frame=true&row=1&column=6" />
 </p>
 
 ---
