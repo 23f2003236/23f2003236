@@ -50,40 +50,25 @@
 
 ### 🚀 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/23f2003236/Hospital-Management-System">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=23f2003236&repo=Hospital-Management-System&theme=synthwave&hide_border=true" />
-  </a>
-  <a href="https://github.com/23f2003236/trekmanager">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=23f2003236&repo=trekmanager&theme=synthwave&hide_border=true" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/23f2003236/parkit-system">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=23f2003236&repo=parkit-system&theme=synthwave&hide_border=true" />
-  </a>
-  <a href="https://github.com/23f2003236/Deep-Learning">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=23f2003236&repo=Deep-Learning&theme=synthwave&hide_border=true" />
-  </a>
-</p>
+- 🏥 **[Hospital Management System](https://github.com/23f2003236/Hospital-Management-System)** — Production-quality hospital management platform built with Flask, Vue.js, SQLite, Redis, and Celery.
+- 🏔️ **[Trek Manager](https://github.com/23f2003236/trekmanager)** — A modern, production-ready trekking management system built with Flask, SQLAlchemy, Bootstrap, and SQLite.
+- 🅿️ **[ParkIt System](https://github.com/23f2003236/parkit-system)** — Production-quality Flask application for efficient vehicle parking management.
+- 🧠 **[Deep Learning](https://github.com/23f2003236/Deep-Learning)** — Deep learning experiments and notebooks exploring neural networks and AI/ML concepts.
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=23f2003236&show_icons=true&theme=synthwave&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=23f2003236&layout=compact&theme=synthwave&hide_border=true"/>
+  <img src="./generated/overview.svg#gh-dark-mode-only" />
+  <img src="./generated/languages.svg#gh-dark-mode-only" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=23f2003236&theme=synthwave&hide_border=true" alt="streak stats"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=23f2003236&theme=synthwave&hide_border=true" alt="activity graph"/>
-</p>
+> Stats above are generated automatically once a day via GitHub Actions and stored directly in this repo — so they never go down, even if third-party card services do.
 
 ---
 
