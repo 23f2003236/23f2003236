@@ -72,14 +72,6 @@
 
 ---
 
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="./generated/trophies.svg" />
-</p>
-
----
-
 <p align="center">
   <img src="https://img.shields.io/badge/-Stoicism-000000?style=for-the-badge&logo=philosophy&logoColor=39FF14" />
 </p>
